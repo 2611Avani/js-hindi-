@@ -9,6 +9,11 @@
 
 // console.log(valueInNumber);
 
-let isLoggedIn = a
-let booleanIsLoggedIn = Boolean (isLoggedIn)
-console.log(booleanIsLoggedIn);
+// let isLoggedIn = a
+// let booleanIsLoggedIn = Boolean (isLoggedIn)
+// console.log(booleanIsLoggedIn);
+
+let someNum = 1
+let stringNum = String (someNum)
+console.log(stringNum);
+console.log(typeof stringNum);
