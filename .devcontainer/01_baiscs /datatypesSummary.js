@@ -24,4 +24,31 @@ const myFunction = function(){
     //console.log("hello world");
 }
 
-console.log(typeof myFunction);
+//console.log(typeof myFunction);
+
+
+//--------------------------------stacks and heap memory in js ---------------------------------------------//
+
+
+let myyoutubename = "avani"
+
+let anothername = myyoutubename
+
+anothername = "coc"
+
+// console.log(myyoutubename);
+// console.log(anothername);
+
+let user1={
+
+    email:"abc@gmail.com",
+
+    upi:"@abc"
+}
+
+let user2 = user1
+
+user2.email= "def@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
