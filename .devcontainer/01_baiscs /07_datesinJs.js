@@ -20,8 +20,9 @@ let newDate = new Date()
 // console.log(newDate.getTime());
 
 newDate.toLocaleString('default', {
-    weekday: "long"
+    weekday: "narrow"
 })
+console.log(newDate);
 
 
 
