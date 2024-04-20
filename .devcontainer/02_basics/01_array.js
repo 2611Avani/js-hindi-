@@ -33,6 +33,41 @@ const myn2 = myArr.splice()
 
 // console.log("B:", myArr);
 
+// array in array 
+
+let marvel_heros = ["thor", "ironman", "spiderman"]
+
+let dc_heros = ["batman", "flash", "superman"]
+
+// marvel_heros.push(dc_heros)
+// console.log(marvel_heros);
+// console.log(marvel_heros[3][2]);
+
+// const all_heros = marvel_heros.concat(dc_heros)
+// console.log(all_heros); 
+
+// const allNewHeros= [...marvel_heros, ...dc_heros]
+// console.log(allNewHeros);
+
+// many arrays in an array 
+
+const anotherArr = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]] 
+
+const realAnotherArr = anotherArr.flat(Infinity)
+
+console.log(realAnotherArr);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
