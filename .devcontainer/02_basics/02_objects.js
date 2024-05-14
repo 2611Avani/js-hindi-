@@ -98,13 +98,26 @@ const users = [ { id: 1, age: 12 }, { id: 2, age: 21 }, { id: 3, age: 25 } ]
 
 
 
-console.log(tinderuser);
-console.log(Object.keys(tinderuser));
-console.log(Object.entries(tinderuser));
+// console.log(tinderuser);
+// console.log(Object.keys(tinderuser));
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty('isLogged'));
+// console.log(tinderuser.hasOwnProperty('isLogged'));
 
+/* destructuring */  
 
+const course ={
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+// course.courseInstructor 
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+
+// console.log(instructor);
 
 
 
