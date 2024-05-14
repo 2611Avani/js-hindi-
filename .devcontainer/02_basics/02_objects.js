@@ -106,20 +106,25 @@ const users = [ { id: 1, age: 12 }, { id: 2, age: 21 }, { id: 3, age: 25 } ]
 
 /* destructuring */  
 
-const course ={
+/* const course ={
     coursename: "js in hindi",
     price: "999",
     courseInstructor: "hitesh"
-}
+} */
+
 // course.courseInstructor 
 
-const {courseInstructor: instructor} = course
+ // const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
 
 // console.log(instructor);
 
+// json 
 
+{
+    "name" : "hitesh "
+}
 
 
 
