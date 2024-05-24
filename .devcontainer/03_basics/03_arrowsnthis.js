@@ -1,3 +1,5 @@
+// this :-
+
 /*
 const user = {
   username: "heaven",
@@ -36,6 +38,8 @@ const chai = function(){
 chai()
 */
 
+// arrow fn:-
+
 /*
 const chai = () => {
     let username = "heaven"
@@ -45,8 +49,25 @@ const chai = () => {
 chai()
 */ 
 
+/*
 const addtwo = (num1, num2) => { 
 
     return num1 + num2
 }
 console.log(addtwo(3, 4)); 
+*/
+
+// implicit retuen:-
+
+/* const addtwo = () => (`DB COONECTED`)
+
+console.log(addtwo()); */
+
+// using arrow fn 
+
+/*
+ ((name) => {
+  console.log(`DB CONNECTED TO ${name}`);
+})("HEAVEN") 
+
+*/
